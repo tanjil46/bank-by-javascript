@@ -6,7 +6,7 @@ const yourBalance=document.getElementById("balance");
 const depositInput=document.getElementById("deposit-input");
 const withdrawInput=document.getElementById("withdraw-input");
 const depositBtn=document.getElementById("deposit-btn");
-
+const btnModel=document.getElementById("open-model");
 
 
 
@@ -106,8 +106,7 @@ depositBtn.addEventListener("click",function(){
             
               
               if(newWithdrawAmount>totalBalance){
-              alert('insufficent Balance')
-                return;
+              alert("insuffient Balance")
             
                }
                     
