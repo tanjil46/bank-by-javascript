@@ -107,7 +107,7 @@ depositBtn.addEventListener("click",function(){
               
               if(newWithdrawAmount>totalBalance){
               alert("insuffient Balance")
-            
+             return;
                }
                     
 
